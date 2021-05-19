@@ -22,7 +22,7 @@ app.use('/posts', postRoutes);
 app.use('/user', userRoutes);
 
 app.get('/', (req, res) => {
-	res.send('hello to otc api');
+	res.send('hello to otc api backend');
 });
 
 const PORT = process.env.PORT || 5000;
